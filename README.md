@@ -39,11 +39,9 @@ Then go to your Plugins screen and click __Activate__.
 
 ## Credits
 
-Built by [Mike Hemberger](https://twitter.com/jivedig)
-
-Copyright 2013 [Mike Hemberger](http://thestizmedia.com/)
-
-Props to [Chris Christoff](https://twitter.com/chriscct7) for making this happen.
+* Built by [Mike Hemberger](https://twitter.com/jivedig)
+* Copyright 2013 [Mike Hemberger](http://thestizmedia.com/)
+* Props to [Chris Christoff](https://twitter.com/chriscct7) for making this happen.
 
 ## FAQS ##
 
