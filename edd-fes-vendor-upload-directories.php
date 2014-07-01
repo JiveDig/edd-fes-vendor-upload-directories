@@ -10,7 +10,7 @@
  *
  * Plugin Name:       Easy Digital Downloads - FES Vendor Upload Directories
  * Plugin URI:        TBD
- * Description:       An add-on for Easy Digital Downloads and Frontend Submissions that creates a separate directory in /uploads/edd/ for each vendors downloads and files.
+ * Description:       An add-on for Easy Digital Downloads and Frontend Submissions to create separate upload directories for each vendor.
  * Version:           1.0.0
  * Requires: 		  Easy Digital Downloads and Frontend Submissions
  * Author:            Mike Hemberger
