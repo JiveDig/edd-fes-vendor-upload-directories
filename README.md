@@ -45,6 +45,6 @@ Then go to your Plugins screen and click __Activate__.
 
 ## FAQS ##
 
-### Can this plugin put all my existing files in the directories? ###
+### Can this plugin put all my existing files in the new directories? ###
 
 Unfortunatley, this plugin only works on all future uploads. To get you existing files in the new directories you have to go to each download and upload you file again. This will put it in the new vendor directory.
