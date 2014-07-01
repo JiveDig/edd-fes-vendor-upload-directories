@@ -1,4 +1,4 @@
-# EDD Frontend Submissions Vendor Upload Directories
+# Vendor Upload Directories
 ============================
 
 An add-on for Easy Digital Downloads and Frontend Submissions that creates a separate directory in /uploads/edd/ for each vendors downloads and files.
