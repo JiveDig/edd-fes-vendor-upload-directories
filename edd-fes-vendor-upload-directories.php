@@ -34,26 +34,24 @@ if ( class_exists('Easy_Digital_Downloads') && class_exists('EDD_Front_End_Submi
 	/**
 	 * Allow FES upload directory override
 	 *
-	 * @since 1.0.0
+	 * @since 1.0
 	 */
 	apply_filters( 'override_default_fes_dir', true );
 
 	/**
 	 * Add user nicename directory to all uploads
 	 *
-	 * @since 1.0.0
+	 * @since 1.0
 	 */
 	add_filter( 'upload_dir', 'vud_set_upload_dir' );
 	function vud_set_upload_dir( $upload ) {
-	$user          = wp_get_current_user();
-	$user_nicename = $user->user_nicename;
+		$user          = wp_get_current_user();
+		$user_nicename = $user->user_nicename;
 
 		$upload['subdir'] = '/edd/';
 		$upload['path']   = $upload['basedir'] . $upload['subdir'] . strtolower($user_nicename);
 		$upload['url']	  = $upload['baseurl'] . $upload['subdir'] . strtolower($user_nicename);
 
 		return $upload;
-
 	}
-
 }
