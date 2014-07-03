@@ -6,14 +6,14 @@
  * @author            Mike Hemberger
  * @license           GPL-2.0+
  * @link              http://thestizmedia.com
- * @copyright         2013 Mike Hemberger
+ * @copyright         2014 Mike Hemberger
  *
  * Plugin Name:       Easy Digital Downloads - FES Vendor Upload Directories
  * Plugin URI:        TBD
  * Description:       An add-on for Easy Digital Downloads and Frontend Submissions to create separate upload directories for each vendor.
- * Version:           1.0.0
- * Requires: 		  Easy Digital Downloads and Frontend Submissions
- * Author:            Mike Hemberger
+ * Version:           1.0
+ * Requires:          Easy Digital Downloads and Frontend Submissions
+ * Author:            Mike Hemberger and Chris Christoff
  * Author URI:        http://thestizmedia.com
  * Text Domain:       edd-fes-vendor-upload-directories
  * License:           GPL-2.0+
