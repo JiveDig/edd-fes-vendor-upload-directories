@@ -19,7 +19,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: https://github.com/cdils/genesis-style-trump
+ * GitHub Plugin URI: https://github.com/JiveDig/edd-fes-vendor-upload-directories
  * GitHub Branch:     master
  */
 
