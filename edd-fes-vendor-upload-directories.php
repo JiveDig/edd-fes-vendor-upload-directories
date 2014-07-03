@@ -47,11 +47,18 @@ if ( class_exists('Easy_Digital_Downloads') && class_exists('EDD_Front_End_Submi
 	function vud_set_upload_dir( $upload ) {
 		$user          = wp_get_current_user();
 		$user_nicename = $user->user_nicename;
-
 		$upload['subdir'] = '/edd/';
-		$upload['path']   = $upload['basedir'] . $upload['subdir'] . strtolower($user_nicename);
-		$upload['url']	  = $upload['baseurl'] . $upload['subdir'] . strtolower($user_nicename);
+
+		if ( EDD_FES()->vendors->vendor_is_vendor() ) {
+			$custom_dir = $upload['subdir'] . strtolower($user_nicename);
+		} else {
+			$custom_dir = '';
+		}
+
+		$upload['path']   = $upload['basedir'] . $custom_dir;
+		$upload['url']	  = $upload['baseurl'] . $custom_dir;
 
 		return $upload;
 	}
+
 }
