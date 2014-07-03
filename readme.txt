@@ -12,7 +12,11 @@ An add-on for Easy Digital Downloads and Frontend Submissions to create separate
 
 == Description ==
 
-An add-on for Easy Digital Downloads and Frontend Submissions to create separate upload directories for each vendor.
+An add-on for Easy Digital Downloads and Frontend Submissions that creates a separate directory in /uploads/edd/ for each vendors downloads and files.
+
+By default, EDD and FES save all download files to /uploads/edd/.  This plugin automatically creates and upload directory per user.  If my user nicename in WordPress is 'MikeHemberger', Vendor Upload Directories will automatically put all my files in /uploads/edd/mikehemberger/
+
+All you have to do is activate it and it just works.
 
 == Installation ==
 
@@ -25,6 +29,10 @@ An add-on for Easy Digital Downloads and Frontend Submissions to create separate
 = Where Can I get Easy Digital Downloads Frontend Submissions =
 
 https://easydigitaldownloads.com/extensions/frontend-submissions/
+
+= Does this retroactively move previously uploaded files =
+
+No this only works on new uploads
 
 == Screenshots ==
 
