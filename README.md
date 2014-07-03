@@ -40,11 +40,11 @@ Then go to your Plugins screen and click __Activate__.
 ## Credits
 
 * Built by [Mike Hemberger](https://twitter.com/jivedig)
-* Copyright 2013 [Mike Hemberger](http://thestizmedia.com/)
+* Copyright 2014 [Mike Hemberger](http://thestizmedia.com/)
 * Props to [Chris Christoff](https://twitter.com/chriscct7) for making this happen.
 
 ## FAQS ##
 
 ### Can this plugin put all my existing files in the new directories? ###
 
-Unfortunatley, this plugin only works on all future uploads. To get you existing files in the new directories you have to go to each download and upload you file again. This will put it in the new vendor directory.
+Unfortunately, this plugin only works on all future uploads. To get you existing files in the new directories you have to go to each download and upload you file again. This will put it in the new vendor directory.
