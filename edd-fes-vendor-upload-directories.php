@@ -49,7 +49,7 @@ if ( class_exists('Easy_Digital_Downloads') && class_exists('EDD_Front_End_Submi
 		$user_nicename = $user->user_nicename;
 		$upload['subdir'] = '/edd/';
 
-		if ( EDD_FES()->vendors->vendor_is_vendor() ) {
+		if ( EDD_FES()->vendors->vendor_is_vendor() && !EDD_FES()->vendors->vendor_is_admin() && wp_script_is( 'fes_form', $list = 'enqueued' ) ) {
 			$custom_dir = $upload['subdir'] . strtolower($user_nicename);
 		} else {
 			$custom_dir = '';
